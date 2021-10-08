@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+
+.header {
+    padding: 25px;
+}
+
+.header-wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+header img {
+    width: 200px;
+}
+
+header nav a {
+    margin-left: 40px;
+    color: #1f1534;
+    opacity: 0.5;
+    text-decoration: none;
+
+}
+
+header nav a:first-child {
+    margin-left: 0px;
+}
+
+.active-link {
+    color: black;
+opacity: 1;
+}
+
+.welcome-wrapper {
+    width: 70%;
+margin: 0 auto;
+}
+
+.inner {
+    padding: 75px 0;
+}
+
+#welcome h1 {
+    font-size: 40px;
+}
+
+.welcome-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome img {
+    width: 650px;
+    height: 450px;
+}
+
+.welcome-details {
+    width: 450px;
+    font-size: 15px;
+    color: #7d7987;
+}
+
+.welcome-btn {
+    color: #fff;
+background-color: #458ff6 ;
+border: none;
+padding: 15px 25px;
+border-radius: 25px;
+}
+
+#services {
+    margin-top: 100px;
+    background: url(../images/services-bg.png);
+    background-size:cover;
+}
+
+.services-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+.services-text {
+    text-align: center;
+}
+
+.services-text p {
+    color: #7d7987;
+}
+
+.services-text hr {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 35px auto;
+}
+
+.services-cards {
+    margin-top: 100px;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-row:first-child {
+    margin-bottom: 25px;
+}
+
+.card {
+    box-shadow: 0 0 15px 0 #999;
+    background-color: white;
+    padding: 25px;
+}
+
+.card p {
+    color:#7d7987 ;
+}
