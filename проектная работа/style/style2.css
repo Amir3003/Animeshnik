@@ -1,5 +1,11 @@
 
-.card {
+.card-1 {
     width: 700px;
 height: 300px;
+}
+
+.cards {
+    box-shadow: 0 0 15px 0 #999;
+    background-color: white;
+    padding: 25px;
 }

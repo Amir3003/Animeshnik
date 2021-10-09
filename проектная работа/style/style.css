@@ -112,7 +112,6 @@ border-radius: 25px;
 }
 
 .cards-row {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -120,11 +119,6 @@ border-radius: 25px;
     margin-bottom: 25px;
 }
 
-.card {
-    box-shadow: 0 0 15px 0 #999;
-    background-color: white;
-    padding: 25px;
-}
 
 .card p {
     color:#7d7987 ;
